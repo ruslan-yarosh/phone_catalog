@@ -5,6 +5,9 @@ module.exports = {
   ],
   rules: {
     // React
+    'no-shadow': 'off',
+    '@typescript-eslint/no-shadow': 'warn',
+    'react/react-in-jsx-scope': 'off',
     'react/prop-types': 0,
     'react/self-closing-comp': 0,
     'react/display-name': 0,
