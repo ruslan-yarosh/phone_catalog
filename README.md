@@ -1,6 +1,8 @@
 # Phone Catalog App with React, TypeScript, and React Router
 This Phone Catalog app is a dynamic web application developed using React, TypeScript, and React Router. It provides an organized and intuitive user interface to explore and find various mobile phones. The website is fully responsive and optimized for different screen sizes, from desktop to mobile devices. The landing page was implemented according to [Mockup](https://www.figma.com/file/uEetgWenSRxk9jgiym6Yzp/Phone-catalog-redesign?node-id=1%3A2&mode=dev).
 
+[DEMO](https://ruslan-yarosh.github.io/phone_catalog/)
+
 ## Technologies Used:
  - React
  - TypeScript
