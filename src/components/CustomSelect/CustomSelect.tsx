@@ -30,8 +30,9 @@ export const CustomSelect: React.FC<Props> = ({ options, searchParam }) => {
   const param = searchParams.get(searchParam)
     || options.values[0].toLowerCase();
 
-  const handleBtnClick = () => {
-    setIsOpen(state => !state);
+  const handleBtnClick = (event: React.MouseEvent<HTMLButtonElement>) => {
+    event.stopPropagation();
+    setIsOpen((state) => !state);
   };
 
   useEffect(() => {
